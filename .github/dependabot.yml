@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # Main application
+  - package-ecosystem: "npm"
+    directory: "/app"
+    labels:
+      - "dependabot :robot:"
+    schedule:
+      interval: "daily"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    labels:
+      - "dependabot :robot:"
+    schedule:
+      interval: "daily"
