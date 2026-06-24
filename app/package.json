@@ -12,7 +12,7 @@
   "dependencies": {
     "cheerio": "^1.2.0",
     "json-2-csv": "^5.5.10",
-    "puppeteer": "^24.37.2",
+    "puppeteer": "^25.0.4",
     "xlsx": "^0.18.5"
   }
 }
